@@ -8,12 +8,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/gorilla/mux"
 	"github.com/yabs-bae/go-crud/api/auth"
 	"github.com/yabs-bae/go-crud/api/models"
 	"github.com/yabs-bae/go-crud/api/responses"
 	"github.com/yabs-bae/go-crud/api/utils/formaterror"
-
-	"github.com/gorilla/mux"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {

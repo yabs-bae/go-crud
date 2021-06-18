@@ -37,6 +37,7 @@ func (u *User) BeforeSave() error {
 	u.Password = string(hashedPassword)
 	return nil
 }
+
 func (u *User) Prepare() {
 	u.ID = 0
 	u.Nickname = html.EscapeString(strings.TrimSpace(u.Nickname))
@@ -135,7 +136,7 @@ func (u *User) UpdateAUser(db *gorm.DB, uid uint32) (*User, error) {
 			"password":  u.Password,
 			"nickname":  u.Nickname,
 			"email":     u.Email,
-			"update_at": time.Now(),
+			"updated_at": time.Now(),
 		},
 	)
 	if db.Error != nil {
