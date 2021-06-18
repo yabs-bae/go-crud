@@ -1,4 +1,4 @@
-module fullstack
+module github.com/yabs-bae/go-crud
 
 go 1.15
 

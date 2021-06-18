@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"fullstack/api/auth"
-	"fullstack/api/models"
-	"fullstack/api/responses"
-	"fullstack/api/utils/formaterror"
+	"github.com/yabs-bae/go-crud/api/auth"
+	"github.com/yabs-bae/go-crud/api/models"
+	"github.com/yabs-bae/go-crud/api/responses"
+	"github.com/yabs-bae/go-crud/api/utils/formaterror"
 
 	"golang.org/x/crypto/bcrypt"
 )

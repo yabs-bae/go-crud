@@ -1,6 +1,6 @@
 package controllers
 
-import "fullstack/api/middlewares"
+import "github.com/yabs-bae/go-crud/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 

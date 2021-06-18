@@ -2,9 +2,10 @@ package middlewares
 
 import (
 	"errors"
-	"fullstack/api/auth"
-	"fullstack/api/responses"
 	"net/http"
+
+	"github.com/yabs-bae/go-crud/api/auth"
+	"github.com/yabs-bae/go-crud/api/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {

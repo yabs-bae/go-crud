@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"fullstack/api/responses"
+	"github.com/yabs-bae/go-crud/api/responses"
 )
 
 func (server *Server) Home(w http.ResponseWriter, r *http.Request) {

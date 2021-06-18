@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"fullstack/api/controllers"
-	"fullstack/api/seed"
+	"github.com/yabs-bae/go-crud/api/controllers"
+	"github.com/yabs-bae/go-crud/api/seed"
 
 	"github.com/joho/godotenv"
 )

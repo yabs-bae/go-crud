@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"fullstack/api/models"
+	"github.com/yabs-bae/go-crud/api/models"
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"

@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"fullstack/api/auth"
-	"fullstack/api/models"
-	"fullstack/api/responses"
-	"fullstack/api/utils/formaterror"
+	"github.com/yabs-bae/go-crud/api/auth"
+	"github.com/yabs-bae/go-crud/api/models"
+	"github.com/yabs-bae/go-crud/api/responses"
+	"github.com/yabs-bae/go-crud/api/utils/formaterror"
 
 	"github.com/gorilla/mux"
 )
